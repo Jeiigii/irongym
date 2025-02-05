@@ -1,0 +1,336 @@
+
+    *{
+        padding: 0%;
+        margin: 0;
+    }
+    body{
+        background-color: black;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        background: linear-gradient(to right, rgb(0,0,0), transparent), url("./imagen/fondoBueno.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+       
+        
+        
+      
+
+        
+    }
+    
+    
+   
+    .culturista{
+        position: absolute;
+        top: 50px;
+        right: 100px;
+        z-index: 1;
+        width: 74vw;
+        margin-top: 100px;
+        left: 150;
+       
+    
+    }
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border: 1px solid grey;
+        
+    }
+    .span1{
+        color: white;
+    
+    }
+    .span2{
+        color: red;
+    }
+    .barra{
+       display: flex;
+       justify-content: space-between;
+       gap: 20px;
+       
+       
+       
+        
+    
+    }
+    button{
+        padding: 12px;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        
+        
+    
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .ready{
+        
+        font-weight: 400;
+        font-size: 122px;
+        line-height: 136px;
+        
+        color: white;
+    }
+    .parrafo{
+        
+        font-weight: 400;
+        font-size: 122px;
+        line-height: 136px;
+        
+        color: red;
+    }
+    .texto{
+        margin-top: 200px;
+        width: 604px;
+        padding-left: 150px;
+    
+    }
+    .pequeño{
+        width: 660px;
+        height: 48px;
+        top: 478px;
+        left: 98px;
+        padding-left: 157px;
+        
+    }
+    p{
+        font-family: poppins;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: white;
+        
+    }
+    .boton2{
+        margin-top: 50px;
+        margin-left: 150px;
+        border-radius: 0%;
+        background-color: transparent;
+        border: 1px solid red;
+        color: red;
+        
+        
+        
+    }
+    .seguidores{
+        display: flex;
+        justify-content: space-evenly;
+        width: 400px;
+        
+        margin-top: 50px;
+        margin-left: 150px;
+    
+    }
+    .info1{
+       width: 162px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       
+    
+    }
+    .viente{
+        font-size: 50px;
+        
+        align-items: center;
+        
+        color: red;
+    }
+    .years{
+        color: white;
+    }
+    .info2{
+        width: 175px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .info3{
+        width: 175px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+    }
+    .texto2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border: none;
+        margin-top: 400px;
+        font-size: 50px;
+        
+        
+    }
+    .why{
+        
+        color: white;
+        
+        
+    }
+    .us{
+        color: red;
+    }
+    .choose{
+        color: red;
+    }
+    .fondoNegro{background-color: black;
+    }
+    .parrafo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        margin-top: 30px;
+
+        
+    
+    }
+    .flex-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        
+        width: 1050px;
+        height: 400px;
+        gap: 20px;
+    }
+    .card1{
+        border: 1px solid red;
+    }
+    .card2{
+        border: 1px solid red;
+    }
+    .card3{
+        border: 1px solid red;
+    }
+    .card4{
+        border: 1px solid red;
+    }
+    h3{
+        color: white;
+        margin-left: 10px;
+        font-size: 38px;
+
+    }
+    h4{
+        color: red;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 28px;
+    }
+    .parrafo-card1{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .parrafo-card2{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .parrafo-card3{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .parrafo-card4{
+        margin-left: 10px;
+        font-size: 16px;
+    }
+    .texto3{
+        
+        font-size: 70px;
+        margin-top: 100px;
+        border: none;
+        width: 604px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .our{
+        display: block;
+        color: white;
+        margin-left: 103px;
+
+        
+    }
+    
+    .trainers{
+        color: red;
+        margin-left: 200px;
+       
+    }
+    .parrafo3{
+        font-family: poppins;
+        font-size: 20px;
+        width: 604px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .p1{
+        color: white;
+
+    }
+    .p2{
+        color: white;
+    }
+    .carrousel{
+        width: 600px;
+        margin-left: 33%;
+        
+       
+        
+    }
+    .slides{
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-behavior: smooth;
+    }
+    .slide{
+        flex: 0 0 100%;
+        scroll-snap-align: start;
+
+    }
+    .slide img{
+        width: 100%;
+    }
+    .thumbdnails{
+        display: flex;
+        justify-content: center;
+        
+        margin-top: 10px;
+    }
+    .thumbdnails a{
+        margin: 0 5px;
+    }
+    .thumbdnails img{
+        width: 100%;
+        height: auto;
+        opacity: 0.6;
+        cursor: pointer;
+
+    }
+    .thumbdnails img:hover{
+        opacity: 1;
+    }
+
+
+   
+
+
+    
+    
